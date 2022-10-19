@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * times_table - A function that prints out the 9 times table
