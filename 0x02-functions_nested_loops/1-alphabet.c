@@ -1,23 +1,18 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet_x10 - A function that prints the alphabet
+ * print_alphabet - The function requested, a function that prints the alphabet
  *
  * Return: Always 0 (Success)
 */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-	char i, j;
+	char alphabet;
 
-	j = 0;
-
-	while (j < 10)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		for (i = 'a'; i <= 'z'; i++)
-		{
-			_putchar(i);
-		}
-		j++;
-		_putchar('\n');
+		_putchar(alphabet);
 	}
+	_putchar('\n');
+
 }
