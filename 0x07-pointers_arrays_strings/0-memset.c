@@ -1,6 +1,6 @@
 /*
  * File: 0-memset.c
- * Auth: Brennan D Baraban
+ * Auth: Samaila N Isah
  */
 
 #include "main.h"
